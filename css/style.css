@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: #090a12;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #575789;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links .logo {
+    font-size: 32px;
+    color: #fff;
+}
+
+.links ul#info {
+    display: flex;
+}
+
+.links ul#info a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+.links ul#info a:first-child {
+    margin-right: 15px;
+}
+h3 {
+    color: #fff;
+}
+.form {
+    height: calc(100vh - 78px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form form  {
+    background-color: #1c1f3775;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form form input {
+    display: block;
+    width: 400px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #484d7461;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form form input:last-child {
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form form input:last-child:hover {
+    background-color: #484d74ad;
+}
+.form form input:not(:last-child) {
+    margin-bottom: 30px;
+}
+.links ul#user-name {
+    display: none;
+}
+.links ul#user-name a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.links ul#user-name #user {
+    font-weight: bold;
+    margin-right: 15px;
+}
+.links ul#user-name #logout{
+    text-decoration: none;
+}
+form h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #b6b6b6;
+}
+.page #title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 38px;
+}
+.page  {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}

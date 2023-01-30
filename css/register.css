@@ -1,0 +1,9 @@
+
+.fill .message{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #420404ab;
+    margin-bottom: 30px;
+    padding: 25px 0;
+}

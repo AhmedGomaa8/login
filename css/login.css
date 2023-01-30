@@ -1,0 +1,8 @@
+.wrong .message {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #420404ab;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
